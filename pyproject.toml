@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "arg-check"
+name = "argument-checks"
 version = "0.1.0"
 description = "utility for checking that call args have the expected types and all required args are provided"
 authors = ["Julian Heise <jam.heise@gmail.com>"]

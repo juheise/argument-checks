@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from arg_check import enforce_arg_types
+from argument_checks import enforce_arg_types
 
 
 @pytest.mark.parametrize("args", [

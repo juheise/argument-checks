@@ -3,7 +3,7 @@ from typing import List, Union, Dict, Optional, Sequence
 
 import pytest
 
-from arg_check import UnexpectedArgumentTypeError, verify_call_args_have_expected_types
+from argument_checks import UnexpectedArgumentTypeError, verify_call_args_have_expected_types
 
 
 @pytest.mark.parametrize("args, kwargs", [

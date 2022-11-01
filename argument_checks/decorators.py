@@ -1,7 +1,7 @@
 import inspect
 from functools import wraps
 
-from arg_check import verify_call_args_have_expected_types, verify_required_args_are_provided
+from argument_checks import verify_call_args_have_expected_types, verify_required_args_are_provided
 
 
 def required_args(*arg_list):

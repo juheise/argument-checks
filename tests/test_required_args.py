@@ -1,8 +1,8 @@
 import inspect
 import pytest
 
-from arg_check.decorators import required_args
-from arg_check.verifications import _get_default_value
+from argument_checks.decorators import required_args
+from argument_checks.verifications import _get_default_value
 
 
 def test_that_missing_required_arg_results_in_syntax_error():
