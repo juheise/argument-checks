@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "arg-check"
+version = "0.1.0"
+description = "utility for checking that call args have the expected types and all required args are provided"
+authors = ["Julian Heise <jam.heise@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
