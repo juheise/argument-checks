@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "argument-checks"
-version = "0.1.0"
+version = "0.1.1"
 description = "utility for checking that call args have the expected types and all required args are provided"
 authors = ["Julian Heise <jam.heise@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/juheise/argument-checks/"
+repository = "https://github.com/juheise/argument-checks/"
 
 [tool.poetry.dependencies]
 python = "^3.7"
